@@ -14,3 +14,11 @@ Open standard Termux and run this command to install the required packages (`pro
 pkg update && pkg upgrade -y
 pkg install x11-repo -y
 pkg install proot-distro pulseaudio wget termux-x11-nightly -y
+
+
+
+2. Setup inside Fedora 44
+Install Fedora 44 using proot-distro and log in:
+
+proot-distro install fedora
+proot-distro login fedora
