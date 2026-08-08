@@ -14,6 +14,7 @@ We are going to use Termux and Termux X11 in order to have a full Fedora 44 Linu
 
 <details>
 <summary><strong> [Commands] How to install Fedora on Termux with proot-distro (No Root)</strong></summary>
+  
 you can actually install fedora
 ## 💻 Running the Desktops for use with Termux X11 <a name=running-desktops></a>
 All the scripts in this repository are prepared to run the desktop with audio in an easy way.
