@@ -14,11 +14,21 @@ We are going to use Termux and Termux X11 in order to have a full Fedora 44 Linu
 
 <details>
 <summary><strong> [Commands] How to install Fedora on Termux with proot-distro (No Root)</strong></summary>
-
+you can actually install fedora
+## 💻 Running the Desktops for use with Termux X11 <a name=running-desktops></a>
+All the scripts in this repository are prepared to run the desktop with audio in an easy way.
 1. Open Termux
-2. Install proot-distro
+2. install packages so you can actually install fedora
+## 💻 Running the Desktops for use with Termux X11 <a name=running-desktops></a>
+All the scripts in this repository are prepared to run the desktop with audio in an easy way.
+
+First you need to install the following packages in Termux:
 ```
 pkg update
+pkg install x11-repo
+pkg install termux-x11-nightly
+pkg install pulseaudio
+pkg install wget
 pkg install proot-distro
 ```
 3. Install Fedora
@@ -47,17 +57,7 @@ dnf install plasma-workspace-x11 xhost xrdb xset dbus-x11 -y
 ---  
 <br>
 
-## 💻 Running the Desktops for use with Termux X11 <a name=running-desktops></a>
-All the scripts in this repository are prepared to run the desktop with audio in an easy way.
 
-First you need to install the following packages in Termux:
-```
-pkg update
-pkg install x11-repo
-pkg install termux-x11-nightly
-pkg install pulseaudio
-pkg install wget
-```
 
 Then, you just need to download the script, give it permissions to execute, and run it (in Termux, not in proot-distro):
 ```
